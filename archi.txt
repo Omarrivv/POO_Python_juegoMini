@@ -1,0 +1,39 @@
+COMANDO PARA GIT BASH:
+#🔥 Inicializar el repositorio.
+git init -> para poder iniciar un repossitorio
+#🔥 Agregar los archivos.
+  # Agregar un archivo específico
+  gid add "nombre_archivo"  -> agregar un archivo seleccionado como se indica en este comando
+  # Agregar todos los archivos modificados en el directorio
+  git add .  -> agregar los archivos a el directorio 
+#🔥 Confirmar los cambios.
+git commit -m "mensaje descriptivo aqui"  -> con este comando de codigo podemos configurar revisar cambios
+#🔥 Conectar con el repositorio remoto en GitHub.
+git remote add origin URL_del_repositorio_en_GitHub  -> para poder conectar con GitHub A un repositorio 
+#🔥 Subir los cambios.
+git push -u origin rama  -> cuando ya agamos ejecutado con esste comando podemos revisar los cambios 
+EXTRAS:
+#🔥 Clonar un repositorio remoto.
+gti clone URL_del_repositorio_en_GitHub  -> como lo dice en la anterior linea es para poder clonar un repositorio 
+#🔥 Ver el estado del repositorio.
+git status  -> para ver el estado de un repositorio 
+#🔥 Ver el historial de confirmaciones.
+git log -> histrorial
+#🔥 Crear una nueva rama.
+git branch nombre_de_rama  -> crear ramas nuevas
+#🔥 Cambiar de rama.
+git checkout nombre_de_rama  -> cambiar la rama 
+#🔥 Fusionar ramas.
+git merge nombre_de_rama  -> conectar varias ramas
+#🔥 Eliminar una rama.
+git branch -d nombre_de_rama  ->  eliminar una rama
+#🔥 Actualizar tu repositorio local.
+git pull origin rama  -> actualizar el repositorio actual 
+#🔥 Crear y publicar una etiqueta (tag).
+  # Crear una etiqueta ligera (solo nombre)
+  git tag nombre_etiqueta  -> crear y publicar etiquetas 
+  # Crear una etiqueta anotada (con nombre y mensaje)
+  git tag -a nombre_etiqueta -m "Mensaje de la etiqueta"  -> crear una etiqueta anotada con su nombre y su mensaje que tendra
+#🔥 Para publicar una etiqueta en GitHub, debes subirla explícitamente.
+git push origin nombre_etiqueta   -> publicar una etiqueta en github 
+
