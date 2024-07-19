@@ -1,8 +1,0 @@
-git status
-git add .
-git commit -m "nombre como se ira a guardar tal cambio"
-git push -u origin main
-
-----------------------------------------------------
-
-
